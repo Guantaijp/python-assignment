@@ -1,37 +1,37 @@
 # # 1. Write a function greet(name) that prints “Hello, [name]”.
-# def greet(name):
-#     print("Hello, " + name)
+def greet(name):
+    print("Hello, " + name)
 
-# greet("Alice")
+greet("Alice")
 
 
 # # # 2. Create a function add(a, b) that returns the sum.
-# def add(a, b):
-#     return a + b 
+def add(a, b):
+    return a + b 
 
-# print("Sum:", add(5, 3))
+print("Sum:", add(5, 3))
 
 # # # 3. Modify add() to print “even” or “odd” based on the result.
-# def add_and_check(a, b):
-#     result = a + b
-#     print("Sum:", result)
-#     if result % 2 == 0:
-#         print("The result is even")
-#     else:
-#         print("The result is odd")
-#     return result
+def add_and_check(a, b):
+    result = a + b
+    print("Sum:", result)
+    if result % 2 == 0:
+        print("The result is even")
+    else:
+        print("The result is odd")
+    return result
 
-# add_and_check(4, 7)
+add_and_check(4, 7)
 
 
 # # # 4. Call a function from within another function.
-# def square(x):
-#     return x * x
+def square(x):
+    return x * x
 
-# def sum_of_squares(a, b):
-#     return square(a) + square(b)  # Calling square() inside another function
+def sum_of_squares(a, b):
+    return square(a) + square(b)  # Calling square() inside another function
 
-# print("Sum of squares:", sum_of_squares(3, 4))
+print("Sum of squares:", sum_of_squares(3, 4))
 
 
 #  Challenge: Calculator Function
